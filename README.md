@@ -1,16 +1,50 @@
-# React + Vite
+✨ React Steps and Counter App ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 A small React practice project built to understand useState, component reusability, conditional rendering, and basic UI interactions.
 
-Currently, two official plugins are available:
+🚀 Live Concepts Used
+🔥 React Functional Components  
+🔥 useState Hook  
+🔥 Conditional Rendering  
+🔥 Reusable Components  
+🔥 Tailwind CSS  
+🔥 Basic Animations with CSS  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧩 Features
+✅ Step progress component with toggle animation  
+✅ Multiple Steps components running independently  
+✅ Counter with dynamic step control  
+✅ Date calculation based on counter value  
+✅ Clean UI with Tailwind and custom CSS  
 
-## React Compiler
+📸 Preview
+💡 Interactive buttons  
+💡 Smooth UI transitions  
+💡 Simple and beginner friendly logic  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠 Technologies
+⚛ React  
+🎨 Tailwind CSS  
+🧠 JavaScript  
+🎯 CSS Animations  
 
-## Expanding the ESLint configuration
+▶ How to Run
+1️⃣ Clone the repository  
+2️⃣ Run `npm install`  
+3️⃣ Run `npm run dev`  
+4️⃣ Open browser and explore the app  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📂 File Structure
+📁 App.jsx contains all components  
+📁 App.css handles styling and animations  
+
+📚 What I Learned
+✨ Managing state efficiently  
+✨ Handling multiple components  
+✨ Writing clean reusable logic  
+✨ Styling React apps properly  
+
+👤 Author
+Hero  
+
+🌟 If you like this project give it a star and keep learning React
