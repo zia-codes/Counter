@@ -1,16 +1,77 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://readme-typing-svg.demolab.com?font=Inter&size=24&pause=1200&color=333333&center=true&vCenter=true&width=650&lines=React+Steps+and+Counter+App;State+Management+and+Reusable+Logic;Practice+Project" />
 
-Currently, two official plugins are available:
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This is a small React practice project focused on understanding how state flows through components and how UI changes based on state updates.
 
-## Expanding the ESLint configuration
+The project is intentionally simple so that the logic remains clear and reusable in future applications.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## What This Project Demonstrates
+
+- How `useState` controls UI behavior  
+- How components remain independent while sharing patterns  
+- How conditional rendering changes layout dynamically  
+- How small pieces of logic combine into usable features  
+
+---
+
+## Components and Logic
+
+<details>
+<summary><strong>Steps component</strong></summary>
+
+Handles step based navigation using internal state.  
+Supports toggling visibility without unmounting logic.  
+Each instance works independently which makes it reusable.
+</details>
+
+<details>
+<summary><strong>Counter component</strong></summary>
+
+Separates step value from count value.  
+Updates date output based on count changes.  
+Shows how derived state affects UI.
+</details>
+
+<details>
+<summary><strong>Styling approach</strong></summary>
+
+Uses Tailwind for layout speed.  
+Uses custom CSS for transitions and spacing.  
+Animations are subtle and do not distract from logic.
+</details>
+
+---
+
+## Features
+
+- Step progress with previous and next controls  
+- Toggleable UI without losing state  
+- Counter that increments by dynamic step size  
+- Date calculation based on counter value  
+- Clean readable layout  
+
+---
+
+## Technologies Used
+
+React  
+JavaScript  
+Tailwind CSS  
+CSS transitions  
+
+---
+
+## Running the Project
+
+```bash
+npm install
+npm run dev
